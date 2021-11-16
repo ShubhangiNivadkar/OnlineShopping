@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+body
+{
+	
+}
+.primary-background
+{
+	    background-color: #fff;
+ 		box-shadow: 0 2px 4px rgba(146,161,176,.15);
+ 		
+	
+	
+}
+
+.carousel-item
+{
+	height: 600px;
+	min-height: 300px;
+	background: no-repeat scroll center scroll;
+	-webkit-background-size:cover;
+	background-size: cover;
+	
+}
+.carousel-item::before
+{
+	content:"";
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+}
